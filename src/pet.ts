@@ -14,7 +14,7 @@ export function generatePetContainer(pet: Pet) {
       <h2>${pet.name}</h2>
       <p class="breed">${pet.breed}</p>
       <p>${pet.description}</p>
-      <div class="x">
+      <div class="button-div">
         <button id="left arrow" type="button" <i class="fa-solid fa-arrow-left"></i></button>
         <button id="right arrow" type="button" <i class="fa-solid fa-arrow-right"></i></button>
       </div>

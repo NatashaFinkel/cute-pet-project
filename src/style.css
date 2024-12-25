@@ -61,7 +61,7 @@ p {
   margin-bottom: 20px;
 }
 
-.x {
+.button-div {
   width: 100%;
   display: flex;
   justify-content: space-between;
