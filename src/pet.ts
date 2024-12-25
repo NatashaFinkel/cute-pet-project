@@ -4,7 +4,6 @@ export interface Pet {
   imgAlt: string;
   name: string;
   breed: string;
-  homeCountry: string;
   description: string;
 }
 
@@ -14,7 +13,6 @@ export function generatePetContainer(pet: Pet) {
       <img src="${pet.imgSrc}" alt="${pet.imgAlt}" class="pet-img" />
       <h2>${pet.name}</h2>
       <p>${pet.breed}</p>
-      <p>${pet.homeCountry}</p>
       <p>${pet.description}</p>
       <div class="x">
         <button id="right arrow" type="button"></button>
@@ -30,7 +28,6 @@ export const chat: Pet = {
   imgAlt: "Image d'un chat",
   name: 'Boris',
   breed: 'Kurilian Bobtail',
-  homeCountry: 'Russie',
   description: 'Un chat très mignon et joueur.',
 };
 
@@ -40,6 +37,5 @@ export const chien: Pet = {
   imgAlt: "Image d'un chien",
   name: 'Cooper',
   breed: 'Labrador',
-  homeCountry: 'Canada',
   description: 'un chien qui aime jouer et courir.',
 };
