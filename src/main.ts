@@ -1,11 +1,26 @@
 import './style.css';
-import { chien, chat, generatePetContainer } from './pet.ts';
+import { petArray, generatePetContainer } from './pet.ts';
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div>
-    <h1>Adoptez-moi !</h1>
-    ${generatePetContainer(chien)}
-  </div>
-`;
+let currentIndex = 0;
 
-console.log(chat);
+function updatePetContainer(index: number) {
+  const pet = petArray[index];
+  document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+    <div>
+      <h1>Adoptez-moi !</h1>
+      ${generatePetContainer(pet)}
+    </div>
+  `;
+
+  document.getElementById('right-arrow')?.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % petArray.length;
+    updatePetContainer(currentIndex);
+  });
+
+  document.getElementById('left-arrow')?.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + petArray.length) % petArray.length;
+    updatePetContainer(currentIndex);
+  });
+}
+
+updatePetContainer(currentIndex);
