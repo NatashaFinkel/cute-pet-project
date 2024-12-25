@@ -46,15 +46,13 @@ p {
   width: 300px;
   height: 300px;
   padding: 2em;
-  border: solid 2px #646cffaa;
   border: solid 1px #ffffff;
-  box-shadow: 0 0 3em #646cffaa;
   box-shadow: 0 0 4em #646cff;
 }
 
 .pet-img {
- width: 150px;
- height: 120px;
+  width: 150px;
+  height: 120px;
   border-radius: 50%;
 }
 
@@ -79,6 +77,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
+  border-color: white;
   transition: border-color 0.25s;
   width: 60px;
 }
@@ -89,6 +88,14 @@ button:hover {
 
 button:active {
   border-color: palevioletred;
+}
+
+#surprise-button:hover {
+  border-color: palevioletred;
+}
+
+#surprise-button:active {
+  border-color: #646cff;
 }
 
 @media screen and (max-width: 375px) {
