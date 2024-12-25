@@ -26,7 +26,7 @@ function updatePetContainer(index: number) {
     let newIndex;
     do {
       newIndex = Math.floor(Math.random() * petArray.length);
-    //  Ici,  while crée une boucle qui continue de générer aléatoirement newIndex tant que newIndex === currentIndex, ou si newIndex est l'index qui est juste avant ou juste après currentIndex.
+      //  Ici,  while crée une boucle qui continue de générer aléatoirement newIndex tant que newIndex === currentIndex, ou si newIndex est l'index qui est juste avant ou juste après currentIndex.
     } while (
       newIndex === currentIndex ||
       newIndex === (currentIndex + 1) % petArray.length ||
