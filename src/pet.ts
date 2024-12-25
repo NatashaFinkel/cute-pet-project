@@ -47,7 +47,7 @@ export const chien: Pet = {
 export const tortue: Pet = {
   id: 'tortue',
   imgSrc: '/assets/tortue.jpg',
-  imgAlt: 'Image d\'une tortue',
+  imgAlt: "Image d'une tortue",
   name: 'Caroline',
   breed: 'Tortue des Galapagos',
   description: 'Lentenement mais sûrement.',
