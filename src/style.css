@@ -18,6 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -35,6 +36,10 @@ h1 {
   line-height: 1.1;
 }
 
+p {
+  margin: auto;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -42,25 +47,21 @@ h1 {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3178c6aa);
-}
-
 .card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
   padding: 2em;
+  border: solid 2px #646cffaa;
+  border: solid 1px #ffffff;
+  box-shadow: 0 0 3em #646cffaa;
+  box-shadow: 0 0 4em #646cff;
 }
 
-.read-the-docs {
-  color: #888;
+.pet-img {
+  max-width: 180px;
+  border-radius: 50%;
 }
 
 button {
@@ -74,12 +75,13 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+button:active {
+  border-color: palevioletred;
 }
 
 @media (prefers-color-scheme: light) {
@@ -87,9 +89,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
