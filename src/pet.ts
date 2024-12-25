@@ -30,9 +30,9 @@ export const chat: Pet = {
   id: 'chat',
   imgSrc: '/assets/chat.jpg',
   imgAlt: "Image d\'un chat",
-  name: 'Boris',
-  breed: 'Kurilian Bobtail',
-  description: 'Je suis très mignon !',
+  name: 'Titi',
+  breed: 'chat',
+  description: 'Tellement mignon !',
 };
 
 export const chien: Pet = {
