@@ -12,7 +12,7 @@ export function generatePetContainer(pet: Pet) {
  <div class="card" id="card-${pet.id}">
       <img src="${pet.imgSrc}" alt="${pet.imgAlt}" class="pet-img" />
       <h2>${pet.name}</h2>
-      <p>${pet.breed}</p>
+      <p class="breed">${pet.breed}</p>
       <p>${pet.description}</p>
       <div class="x">
         <button id="left arrow" type="button" <i class="fa-solid fa-arrow-left"></i></button>
