@@ -28,7 +28,7 @@ export const chat: Pet = {
   imgAlt: "Image d'un chat",
   name: 'Boris',
   breed: 'Kurilian Bobtail',
-  description: 'Un chat très mignon et joueur.',
+  description: 'Je suis très mignon !',
 };
 
 export const chien: Pet = {
@@ -37,5 +37,5 @@ export const chien: Pet = {
   imgAlt: "Image d'un chien",
   name: 'Cooper',
   breed: 'Labrador',
-  description: 'un chien qui aime jouer et courir.',
+  description: "J'aime jouer et courir.",
 };
