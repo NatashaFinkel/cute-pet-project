@@ -27,7 +27,7 @@ export function generatePetContainer(pet: Pet) {
 }
 
 export const chat: Pet = {
-  id: 'chat-roux',
+  id: 'chat',
   imgSrc: '/assets/chat.jpeg',
   imgAlt: "Image d'un chat",
   name: 'Boris',
