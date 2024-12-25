@@ -54,7 +54,7 @@ p {
 
 .pet-img {
  width: 150px;
- height: 150px;
+ height: 120px;
   border-radius: 50%;
 }
 
@@ -80,6 +80,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  width: 60px;
 }
 
 button:hover {
