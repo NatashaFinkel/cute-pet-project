@@ -3,7 +3,7 @@ import { chien, chat, generatePetContainer } from './pet.ts';
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
-    <h1>Adopte-moi !</h1>
+    <h1>Adoptez-moi !</h1>
     ${generatePetContainer(chien)}
   </div>
 `;
