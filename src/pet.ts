@@ -9,27 +9,27 @@ export interface Pet {
 
 export function generatePetContainer(pet: Pet) {
   return `
- <div class="card" id="card-${pet.id}">
+  <div class="card" id="card-${pet.id}">
       <img src="${pet.imgSrc}" alt="${pet.imgAlt}" class="pet-img" />
-      <h2>${pet.name}</h2>
-      <p class="breed">${pet.breed}</p>
-      <p>${pet.description}</p>
-      <div class="button-div">
-        <button id="left-arrow" type="button">
-          <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> 
-        </button>
-        <button id="right-arrow" type="button">
-          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i> 
-        </button>
-      </div>
+    <h2>${pet.name}</h2>
+    <p class="breed">${pet.breed}</p>
+    <p>${pet.description}</p>
+    <div class="button-div">
+      <button id="left-arrow" type="button">
+        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> 
+      </button>
+      <button id="right-arrow" type="button">
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i> 
+      </button>
     </div>
-`;
+  </div>
+  `;
 }
 
 export const chat: Pet = {
   id: 'chat',
   imgSrc: '/assets/chat.jpeg',
-  imgAlt: "Image d'un chat",
+  imgAlt: "Image d\'un chat",
   name: 'Boris',
   breed: 'Kurilian Bobtail',
   description: 'Je suis très mignon !',
@@ -38,7 +38,7 @@ export const chat: Pet = {
 export const chien: Pet = {
   id: 'chien',
   imgSrc: '/assets/chien.jpg',
-  imgAlt: "Image d'un chien",
+  imgAlt: "Image d\'un chien",
   name: 'Cooper',
   breed: 'Labrador',
   description: "J'aime jouer et courir.",
@@ -47,16 +47,16 @@ export const chien: Pet = {
 export const tortue: Pet = {
   id: 'tortue',
   imgSrc: '/assets/tortue.jpg',
-  imgAlt: "Image d'une tortue",
+  imgAlt: 'Image d\'une tortue',
   name: 'Caroline',
-  breed: 'Tortue de Floride',
+  breed: 'Tortue des Galapagos',
   description: 'Lentenement mais sûrement.',
 };
 
 export const hamster: Pet = {
   id: 'hamster',
   imgSrc: '/assets/hamster.jpg',
-  imgAlt: "Image d'un hamster",
+  imgAlt: "Image d\'un hamster",
   name: 'Galilée',
   breed: 'Hamster doré',
   description: 'Je suis très malicieux !',
@@ -65,7 +65,7 @@ export const hamster: Pet = {
 export const lapin: Pet = {
   id: 'lapin',
   imgSrc: '/assets/lapin.jpg',
-  imgAlt: "Image d'un lapin",
+  imgAlt: "Image d\'un lapin",
   name: 'Fluffy',
   breed: 'Lapin nain',
   description: 'Je suis tout doux !',
