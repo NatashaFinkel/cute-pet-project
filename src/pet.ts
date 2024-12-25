@@ -15,8 +15,8 @@ export function generatePetContainer(pet: Pet) {
       <p>${pet.breed}</p>
       <p>${pet.description}</p>
       <div class="x">
-        <button id="right arrow" type="button"></button>
-        <button id="left arrow" type="button"></button>
+        <button id="left arrow" type="button" <i class="fa-solid fa-arrow-left"></i></button>
+        <button id="right arrow" type="button" <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
 `;
