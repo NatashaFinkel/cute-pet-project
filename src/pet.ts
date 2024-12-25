@@ -24,3 +24,22 @@ export function generatePetContainer(pet: Pet) {
 `;
 }
 
+export const chat: Pet = {
+  id: 'chat-roux',
+  imgSrc: 'path/to/chat-image.jpg',
+  imgAlt: "Image d'un chat",
+  name: 'Boris',
+  breed: 'Kurilian Bobtail',
+  homeCountry: 'Russie',
+  description: 'Un chat très mignon et joueur.',
+};
+
+export const chien: Pet = {
+  id: 'chien',
+  imgSrc: '/assets/chien.jpg',
+  imgAlt: "Image d'un chien",
+  name: 'Cooper',
+  breed: 'Labrador',
+  homeCountry: 'Canada',
+  description: 'un chien qui aime jouer et courir.',
+};
