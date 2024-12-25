@@ -20,6 +20,7 @@ body {
   justify-items: center;
   min-width: 340px;
   min-height: 100vh;
+  font-size: 17px;
 }
 
 h2 {
@@ -42,7 +43,8 @@ p {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 200px;
+  height: 300px;
   padding: 2em;
   border: solid 2px #646cffaa;
   border: solid 1px #ffffff;
@@ -51,7 +53,8 @@ p {
 }
 
 .pet-img {
-  max-width: 150px;
+ width: 100px;
+ height: 100px;
   border-radius: 50%;
 }
 
