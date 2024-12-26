@@ -53,6 +53,14 @@ export const petArray: Pet[] = [
     description: "J'aime jouer et courir.",
   },
   {
+    id: 'dalmatien',
+    imgSrc: '/assets/dalmatien.jpg',
+    imgAlt: "Image d'un dalmatien",
+    name: 'Dotty',
+    breed: 'Dalmatien',
+    description: "Au moins 101 raisons de m'adopter !",
+  },
+  {
     id: 'tortue',
     imgSrc: '/assets/tortue.jpg',
     imgAlt: "Image d'une tortue",
