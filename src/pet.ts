@@ -100,7 +100,7 @@ export const petArray: Pet[] = [
     imgAlt: "Image d'un poisson rouge",
     name: 'Titan',
     breed: 'Poisson rouge',
-    description: "J'y pense...et puis j'oublie !",
+    description: "J'y pense, et puis j'oublie !",
   },
   {
     id: 'poisson jaune',
