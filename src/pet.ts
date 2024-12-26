@@ -60,7 +60,7 @@ export const petArray: Pet[] = [
     imgAlt: "Image d'un dalmatien",
     name: 'Dotty',
     breed: 'Dalmatien',
-    description: "Au moins 101 raisons de m'adopter !",
+    description: "101 raisons de m'adopter !",
   },
   {
     id: 'tortue',
@@ -92,7 +92,7 @@ export const petArray: Pet[] = [
     imgAlt: "Image d'un hérisson",
     name: 'Sonic',
     breed: 'Hérisson',
-    description: 'Je suis très rapide !',
+    description: 'Je suis très rapide.',
   },
   {
     id: 'poisson rouge',
@@ -100,7 +100,7 @@ export const petArray: Pet[] = [
     imgAlt: "Image d'un poisson rouge",
     name: 'Titan',
     breed: 'Poisson rouge',
-    description: "J'y pense et puis j'oublie !",
+    description: "J'y pense...et puis j'oublie !",
   },
   {
     id: 'poisson jaune',
@@ -108,7 +108,7 @@ export const petArray: Pet[] = [
     imgAlt: "Image d'un poisson jaune",
     name: 'GoldieLocks',
     breed: 'Poisson jaune',
-    description: 'Pourquoi je ne gagne jamais à cache-cache ?',
+    description: 'Je ne gagne jamais à cache-cache.',
   },
   {
     id: 'perroquet',
