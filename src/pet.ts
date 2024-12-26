@@ -46,8 +46,10 @@ export const petArray: Pet[] = [
     breed: 'Chat siamois',
     description: "On m'appelle jolis yeux.",
   },
+  {
+    id: 'labrador',
     imgSrc: '/assets/chien.jpg',
-    imgAlt: "Image d'un chien",
+    imgAlt: "Image d'un labrador",
     name: 'Cooper',
     breed: 'Labrador',
     description: "J'aime jouer et courir.",
