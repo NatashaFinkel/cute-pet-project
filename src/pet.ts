@@ -134,4 +134,12 @@ export const petArray: Pet[] = [
     breed: 'Chèvre',
     description: 'Je suis la reine de la montagne !',
   },
+  {
+    id: 'zèbre',
+    imgSrc: '/assets/zebre.jpg',
+    imgAlt: "Image d'un zèbre",
+    name: 'Zozo',
+    breed: 'Zèbre',
+    description: 'Ze zozotte un peu...'
+  },
 ];
