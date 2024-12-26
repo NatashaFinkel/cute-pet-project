@@ -66,7 +66,7 @@ export const petArray: Pet[] = [
     imgAlt: "Image d'une tortue",
     name: 'Caroline',
     breed: 'Tortue des Galapagos',
-    description: 'Lentenement mais sûrement.',
+    description: 'Lentement mais sûrement.',
   },
   {
     id: 'hamster',
@@ -92,7 +92,6 @@ export const petArray: Pet[] = [
     breed: 'Hérisson',
     description: 'Je suis très rapide !',
   },
-
   {
     id: 'poisson rouge',
     imgSrc: '/assets/poisson-rouge.jpg',
@@ -109,7 +108,6 @@ export const petArray: Pet[] = [
     breed: 'Poisson jaune',
     description: 'Pourquoi je ne gagne jamais à cache-cache ?',
   },
-
   {
     id: 'perroquet',
     imgSrc: '/assets/perroquet.jpg',
@@ -118,7 +116,6 @@ export const petArray: Pet[] = [
     breed: 'Perroquet',
     description: 'Je répète tout ce que vous dites !',
   },
-
   {
     id: 'poule',
     imgSrc: '/assets/poule.jpg',
@@ -134,5 +131,5 @@ export const petArray: Pet[] = [
     name: 'Biquette',
     breed: 'Chèvre',
     description: 'Je suis la reine de la montagne !',
-  }
+  },
 ];
