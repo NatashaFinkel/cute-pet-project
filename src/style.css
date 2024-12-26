@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: white;
   background-color: #242424;
 
   font-synthesis: none;
@@ -18,9 +18,41 @@ body {
   display: flex;
   place-items: center;
   justify-items: center;
-  min-width: 340px;
-  min-height: 100vh;
   font-size: 17px;
+}
+
+#app {
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid white;
+  justify-content: space-around;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  color: white;
+  z-index: 1000;
+}
+
+.logo-div {
+  width: 10%;
+}
+
+.logo-img {
+  height: 90px;
+}
+
+.nav-div {
+  align-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 h2 {
@@ -32,11 +64,9 @@ p {
   margin: auto;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#pet-container {
+  display: flex;
+  justify-content: center;
 }
 
 .card {
