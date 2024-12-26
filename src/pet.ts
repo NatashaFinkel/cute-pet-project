@@ -96,4 +96,12 @@ export const petArray: Pet[] = [
     description: 'Pourquoi je ne gagne jamais à cache-cache ?',
   },
 
+  {
+    id: 'perroquet',
+    imgSrc: '/assets/perroquet.jpg',
+    imgAlt: "Image d'un perroquet",
+    name: 'Polly',
+    breed: 'Perroquet',
+    description: 'Je répète tout ce que vous dites !',
+  },
 ];
