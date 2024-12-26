@@ -78,4 +78,13 @@ export const petArray: Pet[] = [
     breed: 'Hérisson',
     description: 'Je suis très rapide !',
   },
+
+  {
+    id: 'poisson rouge',
+    imgSrc: '/assets/poisson-rouge.jpg',
+    imgAlt: "Image d'un poisson rouge",
+    name: 'Titan',
+    breed: 'Poisson rouge',
+    description: "J'y pense et puis j'oublie !",
+  },
 ];
