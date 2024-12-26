@@ -1,5 +1,4 @@
 export interface Pet {
-  id: string;
   imgSrc: string;
   imgAlt: string;
   name: string;
@@ -9,7 +8,7 @@ export interface Pet {
 
 export function generatePetContainer(pet: Pet) {
   return `
-  <div class="card" id="card-${pet.id}">
+  <div class="card" id="card">
       <img src="${pet.imgSrc}" alt="${pet.imgAlt}" class="pet-img" />
     <h2>${pet.name}</h2>
     <p class="breed">${pet.breed}</p>
@@ -31,7 +30,6 @@ export function generatePetContainer(pet: Pet) {
 
 export const petArray: Pet[] = [
   {
-    id: 'chat de gouttière',
     imgSrc: '/assets/chat.jpg',
     imgAlt: "Image d'un chat de gouttière",
     name: 'Titi',
@@ -39,7 +37,6 @@ export const petArray: Pet[] = [
     description: 'Tellement mignon !',
   },
   {
-    id: 'chat siamois',
     imgSrc: '/assets/chat-siamois.jpg',
     imgAlt: "Image d'un chat siamois",
     name: 'Mia',
@@ -47,7 +44,6 @@ export const petArray: Pet[] = [
     description: "On m'appelle jolis yeux.",
   },
   {
-    id: 'labrador',
     imgSrc: '/assets/chien.jpg',
     imgAlt: "Image d'un labrador",
     name: 'Cooper',
@@ -55,7 +51,6 @@ export const petArray: Pet[] = [
     description: "J'aime jouer et courir.",
   },
   {
-    id: 'dalmatien',
     imgSrc: '/assets/dalmatien.jpg',
     imgAlt: "Image d'un dalmatien",
     name: 'Dotty',
@@ -63,7 +58,6 @@ export const petArray: Pet[] = [
     description: "101 raisons de m'adopter !",
   },
   {
-    id: 'tortue',
     imgSrc: '/assets/tortue.jpg',
     imgAlt: "Image d'une tortue",
     name: 'Caroline',
@@ -71,7 +65,6 @@ export const petArray: Pet[] = [
     description: 'Lentement mais sûrement.',
   },
   {
-    id: 'hamster',
     imgSrc: '/assets/hamster.jpg',
     imgAlt: "Image d'un hamster",
     name: 'Galilée',
@@ -79,7 +72,6 @@ export const petArray: Pet[] = [
     description: 'Je suis très malicieux !',
   },
   {
-    id: 'lapin',
     imgSrc: '/assets/lapin.jpg',
     imgAlt: "Image d'un lapin",
     name: 'Fluffy',
@@ -87,7 +79,6 @@ export const petArray: Pet[] = [
     description: 'Je suis tout doux !',
   },
   {
-    id: 'hérisson',
     imgSrc: '/assets/herisson.jpeg',
     imgAlt: "Image d'un hérisson",
     name: 'Sonic',
@@ -95,7 +86,6 @@ export const petArray: Pet[] = [
     description: 'Je suis très rapide.',
   },
   {
-    id: 'poisson rouge',
     imgSrc: '/assets/poisson-rouge.jpg',
     imgAlt: "Image d'un poisson rouge",
     name: 'Titan',
@@ -103,7 +93,6 @@ export const petArray: Pet[] = [
     description: "J'y pense, et puis j'oublie !",
   },
   {
-    id: 'poisson jaune',
     imgSrc: '/assets/poisson-jaune.jpg',
     imgAlt: "Image d'un poisson jaune",
     name: 'GoldieLocks',
@@ -111,7 +100,6 @@ export const petArray: Pet[] = [
     description: 'Je ne gagne jamais à cache-cache.',
   },
   {
-    id: 'perroquet',
     imgSrc: '/assets/perroquet.jpg',
     imgAlt: "Image d'un perroquet",
     name: 'Polly',
@@ -119,7 +107,6 @@ export const petArray: Pet[] = [
     description: 'Je répète tout ce que vous dites !',
   },
   {
-    id: 'poule',
     imgSrc: '/assets/poule.jpg',
     imgAlt: "Image d'une poule",
     name: 'Cocotte',
@@ -127,7 +114,6 @@ export const petArray: Pet[] = [
     description: 'Je ponds des oeufs en chocolat !',
   },
   {
-    id: 'chèvre',
     imgSrc: '/assets/chevre.jpg',
     imgAlt: "Image d'une chèvre",
     name: 'Biquette',
@@ -135,7 +121,6 @@ export const petArray: Pet[] = [
     description: 'Je suis la reine de la montagne !',
   },
   {
-    id: 'zèbre',
     imgSrc: '/assets/zebre.jpg',
     imgAlt: "Image d'un zèbre",
     name: 'Zozo',
@@ -143,7 +128,6 @@ export const petArray: Pet[] = [
     description: 'Ze zozotte un peu...',
   },
   {
-    id: 'girafe',
     imgSrc: '/assets/girafe.jpg',
     imgAlt: "Image d'une girafe",
     name: 'Ruby',
@@ -152,7 +136,6 @@ export const petArray: Pet[] = [
   },
 
   {
-    id: 'taupe',
     imgSrc: '/assets/taupe.jpg',
     imgAlt: "Image d'une taupe",
     name: 'Todd',

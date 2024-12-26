@@ -3,7 +3,6 @@ import { Pet } from '../pet';
 
 describe('generatePetContainer', () => {
   const pet: Pet = {
-    id: 'chat',
     imgSrc: '/assets/chat.jpg',
     imgAlt: "Image d\'un chat",
     name: 'Titi',
@@ -11,14 +10,6 @@ describe('generatePetContainer', () => {
     description: 'Tellement mignon !',
   };
   const result = generatePetContainer(pet);
-
-  it('must have a id, and it must not be an empty string', () => {
-    const idMatch = result.match(/<div class="card" id="([^"]+)">/);
-    expect(idMatch).not.toBeNull();
-    if (idMatch) {
-      expect(idMatch[1]).not.toBe('');
-    }
-  });
 
   it('must have a img src, and it must not be an empty string', () => {
     const imgSrcMatch = result.match(
@@ -65,7 +56,6 @@ describe('generatePetContainer', () => {
   });
 
   it('must generate the correct data for a given pet', () => {
-    expect(result).toContain('<div class="card" id="card-chat">');
     expect(result).toContain(
       '<img src="/assets/chat.jpg" alt="Image d\'un chat" class="pet-img" />',
     );
