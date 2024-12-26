@@ -70,4 +70,12 @@ export const petArray: Pet[] = [
     breed: 'Lapin nain',
     description: 'Je suis tout doux !',
   },
+  {
+    id: 'hérisson',
+    imgSrc: '/assets/herisson.jpeg',
+    imgAlt: "Image d'un hérisson",
+    name: 'Sonic',
+    breed: 'Hérisson',
+    description: 'Je suis très rapide !',
+  },
 ];
