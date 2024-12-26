@@ -87,4 +87,13 @@ export const petArray: Pet[] = [
     breed: 'Poisson rouge',
     description: "J'y pense et puis j'oublie !",
   },
+  {
+    id: 'poisson jaune',
+    imgSrc: '/assets/poisson-jaune.jpg',
+    imgAlt: "Image d'un poisson jaune",
+    name: 'GoldieLocks',
+    breed: 'Poisson jaune',
+    description: 'Pourquoi je ne gagne jamais à cache-cache ?',
+  },
+
 ];
