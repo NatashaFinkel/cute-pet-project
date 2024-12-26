@@ -140,6 +140,23 @@ export const petArray: Pet[] = [
     imgAlt: "Image d'un zèbre",
     name: 'Zozo',
     breed: 'Zèbre',
-    description: 'Ze zozotte un peu...'
+    description: 'Ze zozotte un peu...',
+  },
+  {
+    id: 'girafe',
+    imgSrc: '/assets/girafe.jpg',
+    imgAlt: "Image d'une girafe",
+    name: 'Ruby',
+    breed: 'Girafe',
+    description: 'Utile pour espionner vos voisins !',
+  },
+
+  {
+    id: 'taupe',
+    imgSrc: '/assets/taupe.jpg',
+    imgAlt: "Image d'une taupe",
+    name: 'Todd',
+    breed: 'Taupe',
+    description: 'Déjà 854 tunnels à mon actif !',
   },
 ];
