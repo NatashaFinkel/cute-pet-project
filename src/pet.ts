@@ -113,4 +113,12 @@ export const petArray: Pet[] = [
     breed: 'Poule',
     description: 'Je ponds des oeufs en chocolat !',
   },
+  {
+    id: 'chèvre',
+    imgSrc: '/assets/chevre.jpg',
+    imgAlt: "Image d'une chèvre",
+    name: 'Biquette',
+    breed: 'Chèvre',
+    description: 'Je suis la reine de la montagne !',
+  }
 ];
