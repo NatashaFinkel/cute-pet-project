@@ -31,11 +31,11 @@ export function generatePetContainer(pet: Pet) {
 
 export const petArray: Pet[] = [
   {
-    id: 'chat',
+    id: 'chat de gouttière',
     imgSrc: '/assets/chat.jpg',
-    imgAlt: "Image d'un chat",
+    imgAlt: "Image d'un chat de gouttière",
     name: 'Titi',
-    breed: 'chat',
+    breed: 'chat de gouttière',
     description: 'Tellement mignon !',
   },
   {
