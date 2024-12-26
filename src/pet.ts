@@ -104,4 +104,13 @@ export const petArray: Pet[] = [
     breed: 'Perroquet',
     description: 'Je répète tout ce que vous dites !',
   },
+
+  {
+    id: 'poule',
+    imgSrc: '/assets/poule.jpg',
+    imgAlt: "Image d'une poule",
+    name: 'Cocotte',
+    breed: 'Poule',
+    description: 'Je ponds des oeufs en chocolat !',
+  },
 ];
