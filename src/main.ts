@@ -7,13 +7,9 @@ let currentIndex = 0;
 function displayApp() {
   return (document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <header id="sticky-header"></header>
-      <div>
-        <h1>Adoptez-moi !</h1>
-      </div>
      <main>
       <div id="pet-container"></div>
      </main>
-
    `);
 }
 
