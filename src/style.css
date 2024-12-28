@@ -182,6 +182,22 @@ button:active {
   }
 }
 
+@media screen and (max-width: 425px) {
+
+  #mobile-logo {
+    display: flex;
+  }
+
+  #app {
+    padding-bottom: 100px;
+  }
+
+  nav {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
 @media screen and (max-width: 375px) {
   h1 {
     font-size: 35px;
