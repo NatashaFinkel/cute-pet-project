@@ -199,7 +199,15 @@ button:active {
 }
 
 @media screen and (max-width: 375px) {
+  .logo-img {
+    height: 60px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
   h1 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
