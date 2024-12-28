@@ -6,7 +6,7 @@ let currentIndex = 0;
 
 function displayApp() {
   return (document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-    <header id="sticky-header"></header>
+    <header></header>
      <main>
       <div id="pet-container"></div>
      </main>
