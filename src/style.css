@@ -140,6 +140,47 @@ button:active {
   border-color: #646cff;
 }
 
+@media screen and (max-width: 768px) {
+
+  nav {
+    gap: 40px;
+  }
+
+  .logo-img {
+    height: 75px;
+  }
+
+  ul {
+    margin: 0px;
+    gap: 40px;
+  }
+
+
+  a {
+    font-size: 17px;
+  }
+
+  .card {
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+  }
+
+  .pet-img {
+    width: 95px;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .breed {
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   h1 {
     font-size: 35px;
