@@ -86,16 +86,16 @@ p {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   padding: 2em;
   border: solid 1px #ffffff;
   box-shadow: 0 0 4em #646cff;
 }
 
 .pet-img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  min-height: 200px;
   border-radius: 50%;
 }
 
@@ -162,14 +162,14 @@ button:active {
   }
 
   .card {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     padding: 1em;
   }
 
   .pet-img {
-    width: 95px;
-    height: auto;
+    width: 150px;
+    min-height: 150px;
   }
 
   h2 {
@@ -183,11 +183,6 @@ button:active {
 }
 
 @media screen and (max-width: 425px) {
-
-  #mobile-logo {
-    display: flex;
-  }
-
   #app {
     padding-bottom: 100px;
   }
@@ -195,6 +190,10 @@ button:active {
   nav {
     position: fixed;
     bottom: 0;
+  }
+
+  a {
+    font-size: 15px;
   }
 }
 
@@ -209,5 +208,10 @@ button:active {
 
   h1 {
     font-size: 25px;
+  }
+
+  .card {
+    width: 250px;
+    min-height: 250px;
   }
 }
