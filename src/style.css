@@ -28,21 +28,33 @@ body {
 
 header {
   display: flex;
-  border-bottom: 1px solid white;
-  justify-content: space-around;
-  background-color: black;
+  justify-content: center;
   position: sticky;
   top: 0;
-  color: white;
   z-index: 1000;
 }
 
-.logo-div {
-  width: 10%;
+nav {
+  display: flex;
+  border-bottom: 1px solid white;
+  width: 100%;
+  justify-content: center;
+  background-color: black;
+  gap: 70px;
 }
 
 .logo-img {
   height: 90px;
+}
+
+ul {
+  display: flex;
+  padding: 0px;
+  gap: 90px;
+}
+
+li {
+  list-style: none;
 }
 
 .nav-div {
