@@ -11,15 +11,15 @@ export default function updatePetContainer(index: number) {
     ${generatePetContainer(pet)}
   `;
 
-  document.getElementById('right-arrow')?.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % petArray.length;
-    updatePetContainer(currentIndex);
-  });
-
-  document.getElementById('left-arrow')?.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + petArray.length) % petArray.length;
-    updatePetContainer(currentIndex);
-  });
+  function addArrowClickListener(arrowId: string, direction: number) {
+    document.getElementById(arrowId)?.addEventListener('click', () => {
+      currentIndex =
+        (currentIndex + direction + petArray.length) % petArray.length;
+      updatePetContainer(currentIndex);
+    });
+  }
+  addArrowClickListener('right-arrow', 1);
+  addArrowClickListener('left-arrow', -1);
 
   document.getElementById('surprise-button')?.addEventListener('click', () => {
     let newIndex;
