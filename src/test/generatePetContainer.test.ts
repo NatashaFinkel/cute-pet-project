@@ -32,7 +32,7 @@ describe('generatePetContainer', () => {
   });
 
   it('must have a name, and it must not be an empty string', () => {
-    const nameMatch = result.match(/<h2>([^<]+)<\/h2>/);
+    const nameMatch = result.match(/<h3>([^<]+)<\/h3>/);
     expect(nameMatch).not.toBeNull();
     if (nameMatch) {
       expect(nameMatch[1]).not.toBe('');
@@ -59,7 +59,7 @@ describe('generatePetContainer', () => {
     expect(result).toContain(
       '<img src="/assets/chat.jpg" alt="Image d\'un chat" class="pet-img" />',
     );
-    expect(result).toContain('<h2>Titi</h2>');
+    expect(result).toContain('<h3>Titi</h3>');
     expect(result).toContain('<p class="breed">chat</p>');
     expect(result).toContain('<p>Tellement mignon !</p>');
   });
