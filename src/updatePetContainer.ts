@@ -1,4 +1,5 @@
-import { petArray, generatePetContainer } from './pet.ts';
+import { petArray } from './pet.ts';
+import { generatePetContainer } from './generatePetContainer.ts';
 let currentIndex = 0;
 
 export default function updatePetContainer(index: number) {

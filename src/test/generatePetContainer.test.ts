@@ -1,4 +1,4 @@
-import { generatePetContainer } from '../pet';
+import { generatePetContainer } from '../generatePetContainer';
 import { Pet } from '../pet';
 
 describe('generatePetContainer', () => {
