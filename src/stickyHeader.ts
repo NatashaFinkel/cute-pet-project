@@ -10,10 +10,10 @@ export function stickyHeader() {
         </div>
         <ul>
           <li class='nav-div'>
-            <a href="#">Notre association</a>
+            <a href="#about-us-container">Notre association</a>
           </li>
           <li class='nav-div'>
-            <a href="pet-container">Nos animaux</a>
+            <a href="#pet-container">Nos animaux</a>
           </li>
         </ul>
       </nav>
