@@ -5,9 +5,6 @@ let currentIndex = 0;
 export default function updatePetContainer(index: number) {
   const pet = petArray[index];
   document.getElementById('pet-container')!.innerHTML = `
-    <div>
-      <h1>Adoptez-moi !</h1>
-    </div>
     ${generatePetContainer(pet)}
   `;
 

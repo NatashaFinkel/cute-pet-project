@@ -2,9 +2,9 @@ import { Pet } from './pet';
 
 export function generatePetContainer(pet: Pet) {
   return `
-    <div class="card" id="card">
+       <h2>Adoptez-moi !</h2>
         <img src="${pet.imgSrc}" alt="${pet.imgAlt}" class="pet-img" />
-      <h2>${pet.name}</h2>
+      <h3>${pet.name}</h3>
       <p class="breed">${pet.breed}</p>
       <p>${pet.description}</p>
       <div class="button-div">
@@ -18,6 +18,5 @@ export function generatePetContainer(pet: Pet) {
           <i class="fa-solid fa-arrow-right" aria-hidden="true"></i> 
         </button>
       </div>
-    </div>
     `;
 }
