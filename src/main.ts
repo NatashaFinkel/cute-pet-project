@@ -9,7 +9,6 @@ function displayApp() {
   return (document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <header></header>
      <main>
-       <h1>Midnight lucky charm</h1>
      <div class="container" id="about-us-container"></div>
       <div class="container card" id="pet-container"></div>
      </main>

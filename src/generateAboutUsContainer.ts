@@ -1,5 +1,8 @@
 export function generateAboutUsContainer() {
   return `
+    <div class="about-us-container-logo-div">
+      <h1>Midnight lucky charm</h1>
+    </div>
     <h2>Notre association</h2>
       <div class="about-us-intro">
        <p>Chaque jour, nous recueillons des animaux abandonnés, malades ou maltraités.<br>Nous organisons également des campagnes de sensibilisation et d'éducation pour promouvoir les bonnes pratiques.</p>
