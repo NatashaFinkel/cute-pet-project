@@ -130,6 +130,13 @@ h3 {
   background-color: black;
 }
 
+h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: "Courgette", serif;
+}
+
 .icons-container {
   display: grid;
   grid-template-columns: auto auto;
