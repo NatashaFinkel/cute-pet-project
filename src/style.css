@@ -310,13 +310,25 @@ button:active {
     display: flex;
     font-size: 25px;
   }
+
+  ul {
+    gap: 100px;
+  }
+
+  .main-logo-div {
+    justify-content: center;
+  }
+
+  .logo-img {
+    border: 2px white solid;
+    height: 150px;
+    top: 30px;
+    position: relative;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
-  .logo-img {
-    height: 60px;
-  }
-
   a {
     font-size: 14px;
   }

@@ -9,6 +9,9 @@ function displayApp() {
   return (document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <header></header>
      <main>
+      <div id="" class="logo-div small-screen-nav-bar-icon main-logo-div">
+          <img src="/assets/logo.png" class="logo-img">
+        </div>
      <div class="container" id="about-us-container"></div>
       <div class="container card" id="pet-container"></div>
      </main>
