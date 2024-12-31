@@ -1,10 +1,11 @@
 import { Pet } from './pet';
+import generateImage from './generateImage';
 import getAnotherPetBtnBar from './getAnotherPetBtnBar';
 
 export function generatePetContainer(pet: Pet) {
   return `
        <h2>Adoptez-moi !</h2>
-        <img src="${pet.imgSrc}" alt="${pet.imgAlt}" class="pet-img" />
+      ${generateImage(`${pet.imgSrc}`, `${pet.imgAlt}`, 'pet-img')}
       <h3>${pet.name}</h3>
       <p class="breed">${pet.breed}</p>
       <p>${pet.description}</p>

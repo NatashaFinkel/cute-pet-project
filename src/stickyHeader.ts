@@ -1,3 +1,5 @@
+import generateImage from './generateImage';
+
 export function stickyHeader() {
   const app = document.querySelector<HTMLDivElement>('#app');
   const headerElement = document.getElementsByTagName('header')[0];
@@ -6,7 +8,7 @@ export function stickyHeader() {
     return (headerElement.innerHTML = `
       <nav class="sticky-header">
         <div id="large-devices-logo" class="logo-div large-screen-nav-bar-icon">
-          <img src="/assets/logo.png" class="logo-img">
+          ${generateImage(`${'/assets/logo.png'}`, `${'logo'}`, 'logo-img')}
         </div>
         <ul>
           <li class='nav-div'>
