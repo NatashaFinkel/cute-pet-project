@@ -11,7 +11,7 @@ export default function generateImage(
 
   //  Pour la version déployée.
   if (baseUrl === 'https://natashafinkel.github.io') {
-    imageUrl = `${baseUrl}/cute-pet-project/assets${imageSrc}`;
+    imageUrl = `${baseUrl}/cute-pet-project/${imageSrc}`;
   } else {
     //  Pour la version locale.
     imageUrl = `${baseUrl}/cute-pet-project${imageSrc}`;
