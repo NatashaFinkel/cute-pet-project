@@ -57,7 +57,7 @@ describe('generatePetContainer', () => {
 
   it('must generate the correct data for a given pet', () => {
     expect(result).toContain(
-      '<img src="/assets/chat.jpg" alt="Image d\'un chat" class="pet-img" />',
+      '<img src=\"http:\//localhost:5173\/cute-pet-project\/assets\/chat.jpg\" alt="Image d\'un chat" class="pet-img">',
     );
     expect(result).toContain('<h3>Titi</h3>');
     expect(result).toContain('<p class="breed">chat</p>');
