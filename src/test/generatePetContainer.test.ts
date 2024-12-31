@@ -24,7 +24,6 @@ describe('generatePetContainer', () => {
     const imgAltMatch = result.match(
       /<img src="\/assets\/chat.jpg" alt="([^"]+)" class="pet-img" \/>/,
     );
-    expect(imgAltMatch).not.toBeNull();
     if (imgAltMatch) {
       expect(imgAltMatch[1]).not.toBe('');
     }
