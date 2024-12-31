@@ -1,4 +1,3 @@
-
 export default function getAnotherPetBtnBar() {
   return `
       <div class="button-div">

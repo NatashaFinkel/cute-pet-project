@@ -154,7 +154,7 @@ h1 {
   font-size: 25px;
   letter-spacing: 1px;
   word-spacing: 2px;
-  font-family: "Courgette", serif;
+  font-family: 'Courgette', serif;
 }
 
 .icons-container {
@@ -241,7 +241,6 @@ button:active {
 }
 
 @media screen and (max-width: 768px) {
-
   nav {
     gap: 40px;
   }
@@ -254,7 +253,6 @@ button:active {
     margin: 0px;
     gap: 40px;
   }
-
 
   a {
     font-size: 17px;
@@ -325,7 +323,6 @@ button:active {
     top: 30px;
     position: relative;
   }
-
 }
 
 @media screen and (max-width: 375px) {
