@@ -1,4 +1,4 @@
-import { petArray } from '../global/interfaces/pet.ts';
+import { petArray } from '../global/interfaces/petArray.ts';
 import { generatePetContainer } from './generatePetContainer.ts';
 let currentIndex = 0;
 
