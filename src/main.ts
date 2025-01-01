@@ -11,7 +11,7 @@ function displayApp() {
     <header></header>
      <main>
       <div id="" class="logo-div small-screen-nav-bar-icon main-logo-div">
-       ${generateImage(`${'/assets/logo.png'}`, `${'logo'}`, `${'logo-img'}`)}
+       ${generateImage(`${'/assets/logo.png'}`, `${'logo de Midnight lucky charm'}`, `${'logo-img'}`)}
         </div>
      <div class="container" id="about-us-container"></div>
       <div class="container card" id="pet-container"></div>

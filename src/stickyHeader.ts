@@ -8,7 +8,7 @@ export function stickyHeader() {
     return (headerElement.innerHTML = `
       <nav class="sticky-header">
         <div id="large-devices-logo" class="logo-div large-screen-nav-bar-icon">
-          ${generateImage(`${'/assets/logo.png'}`, `${'logo'}`, 'logo-img')}
+          ${generateImage(`${'/assets/logo.png'}`, `${'logo de Midnight lucky charm'}`, 'logo-img')}
         </div>
         <ul>
           <li class='nav-div'>
