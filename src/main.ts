@@ -1,8 +1,8 @@
-import './style.css';
-import { stickyHeader } from './stickyHeader.ts';
-import updateAboutUsContainer from './updateAboutUsContainer.ts';
-import updatePetContainer from './updatePetContainer.ts';
-import generateImage from './generateImage.ts';
+import './global/style/style.css';
+import { stickyHeader } from './global/stickyHeader.ts';
+import updateAboutUsContainer from './aboutUsContainer/updateAboutUsContainer.ts';
+import updatePetContainer from './petContainer/updatePetContainer.ts';
+import generateImage from './global/generateImage.ts';
 
 let currentIndex = 0;
 

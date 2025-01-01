@@ -1,5 +1,5 @@
-import { generatePetContainer } from '../generatePetContainer';
-import { Pet } from '../pet';
+import { generatePetContainer } from '../petContainer/generatePetContainer';
+import { Pet } from '../global/interfaces/pet';
 
 describe('generatePetContainer', () => {
   const pet: Pet = {

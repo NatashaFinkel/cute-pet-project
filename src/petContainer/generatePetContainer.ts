@@ -1,5 +1,5 @@
-import { Pet } from './pet';
-import generateImage from './generateImage';
+import { Pet } from '../global/interfaces/pet';
+import generateImage from '../global/generateImage';
 import getAnotherPetBtnBar from './getAnotherPetBtnBar';
 
 export function generatePetContainer(pet: Pet) {
