@@ -12,14 +12,14 @@ export function stickyHeader() {
         </div>
         <ul>
           <li class='nav-div'>
-            <a href="#about-us-container" class="large-screen-nav-bar-icon">Notre association</a>
-            <a href="#about-us-container">
+            <a href="#about-us-container" aria-label="lien vers about-us-container" class="large-screen-nav-bar-icon">Notre association</a>
+            <a href="#about-us-container" aria-label="icône du lien vers about-us-container">
               <i class="fa-solid fa-house small-screen-nav-bar-icon"></i>
             </a>
           </li>
           <li class='nav-div'>
             <a href="#pet-container" class="large-screen-nav-bar-icon">Nos animaux</a>
-            <a href="#pet-container">
+            <a href="#pet-container" aria-label="icône du lien vers pet-container">
             <i class="fa-solid fa-paw small-screen-nav-bar-icon"></i>
             </a>
           </li>
